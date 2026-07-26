@@ -190,7 +190,7 @@ public class StudentManagementSystem {
     private static void loadSampleData() {
         Student s1 = new Student("Ahmad Faris", 1001, 20, "BIT2301", "BIT", 3.75);
         Student s2 = new Student("Nur Aisyah", 1002, 21, "BIT2302", "BISE", 3.90);
-        Instructor i1 = new Instructor("Dr. Nazmirul Izzad", 2001, 35, "EMP001", "Faculty of IT", 8500.00);
+        Instructor i1 = new Instructor(Ahmad Rahman, 2001, 35, "EMP001", "Faculty of IT", 8500.00);
 
         people.add(s1);
         people.add(s2);
